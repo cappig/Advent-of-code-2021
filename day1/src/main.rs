@@ -13,11 +13,11 @@ fn main() {
 
     // Get first solution (1791 from my data)
     let solution1 = part1(&results);
-    println!("[Part 1] There are {} sonar results larger than the previous results.", solution1);
+    println!("[Part 1] There are {} sonar results larger than the previous result.", solution1);
 
     // Get second solution (1822 from my data)
     let solution2 = part2(&results);
-    println!("[Part 2] There are {} sums are larger than the previous sum", solution2);
+    println!("[Part 2] There are {} sums larger than the previous sum", solution2);
 }
 
 fn part1(results: &Vec<u16>) -> u16 {
